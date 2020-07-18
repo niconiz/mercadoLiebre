@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: content-box; /*no entendí para qué mierda uso esto*/
+}
+
+header {
+    background-color: #EAC926;
+}
+
+header fas fa-bars{
+    size: 50%;
+}
+
+header ul{
+    display: none;
+}
+
+header .fa-bars{
+    width: 40px;
+    height: 40px;
+    background-color: #0044AA;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header .fa-bars:hover{
+    background-color: #0022AA;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+
+}
+.titulares {
+    font-size: 24px;
+    background-color: #ebebeb;
+    color: #666;
+}
+
+
+.precios{
+    font-size: 18px;
+    color: #666;
+}
+
+.descripciones .descuentos {
+    font-size: 16px;
+}
+
+
+main section i {
+    color: #39b54a;
+
+}
+
+.descuentos {
+    color: #39b54a;
+}
+
+.descripciones {
+    color: #666;
+}
+
+footer {
+    color: #666;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer i {
+    color: #1259c3;
+}
